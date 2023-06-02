@@ -29,7 +29,7 @@ int main()
             scanf("%d", &guess);
         }
         else if (guess > 100)
-        {
+        { // Fick det inte att funka med denna
             printf("Talet måste vara mellan 1-100");
             scanf("%d", &guess);
         }
